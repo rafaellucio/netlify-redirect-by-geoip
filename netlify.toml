@@ -1,0 +1,9 @@
+[context.production]
+  publish = "public/"
+
+[[redirects]]
+  from = "/"
+  to = "/mx"
+  status = 302
+  force = true
+  conditions = {Country = ["MX"]}
